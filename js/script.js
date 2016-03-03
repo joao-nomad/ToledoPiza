@@ -1,175 +1,151 @@
-var colorOut = "";
-var counter = $(".pointBall").length;
-
-if (counter > 8){colorOut = '#337ab7';}
-if (counter == 8){colorOut = '#D42A2A';}
-if (counter == 6){colorOut = '#D0B400';}
-if (counter == 5){colorOut = '#3F9BDC';}
-
-$("#psicodiagnostico").click(function() {
-  window.location.href = 'services/psicodiagnostico.html';
+$("#laudoPericial").click(function() {
+  window.location.href = 'services/laudoPericial.html';
 });
 
-$("#psicodiagnostico").hover(function() {
+$("#laudoPericial").hover(function() {
   $(this).children().children('span').children().css('background-color', 'black');
 });
 
-$("#psicodiagnostico").mouseleave(function() {
-  $(this).children().children('span').children().css('background-color', colorOut);   
+$("#laudoPericial").mouseleave(function() {
+  $(this).children().children('span').children().css('background-color', '#EC7514');   
 });
 
-/* ----------------------------------------------- */
+//--------------------------------------------------------------------------------------------//
 
-$("#vocacional").click(function() {
-  window.location.href = 'services/vocacional.html';
+$("#parecerPericial").click(function() {
+  window.location.href = 'services/parecerPericial.html';
 });
 
-$("#vocacional").hover(function() {
+$("#parecerPericial").hover(function() {
   $(this).children().children('span').children().css('background-color', 'black');
 });
 
-$("#vocacional").mouseleave(function() {
-  $(this).children().children('span').children().css('background-color', colorOut);
+$("#parecerPericial").mouseleave(function() {
+  $(this).children().children('span').children().css('background-color', '#EC7514');   
 });
 
-/* ----------------------------------------------- */
+//--------------------------------------------------------------------------------------------//
 
-$("#neuroPsico").click(function() {
-  window.location.href = 'services/neuroPsico.html';
+$("#apHaveres").click(function() {
+  window.location.href = 'services/apuracaoHaveres.html';
 });
 
-$("#neuroPsico").hover(function() {
+$("#apHaveres").hover(function() {
   $(this).children().children('span').children().css('background-color', 'black');
 });
 
-$("#neuroPsico").mouseleave(function() {
-  $(this).children().children('span').children().css('background-color', colorOut);
+$("#apHaveres").mouseleave(function() {
+  $(this).children().children('span').children().css('background-color', '#EC7514');   
 });
 
-/* ----------------------------------------------- */
+//--------------------------------------------------------------------------------------------//
 
-$("#psicoMotora").click(function() {
-  window.location.href = 'services/psicoMotora.html';
+$("#cartaoCredito").click(function() {
+  window.location.href = 'services/cartaoCredito.html';
 });
 
-$("#psicoMotora").hover(function() {
+$("#cartaoCredito").hover(function() {
   $(this).children().children('span').children().css('background-color', 'black');
 });
 
-$("#psicoMotora").mouseleave(function() {
-  $(this).children().children('span').children().css('background-color', colorOut);
+$("#cartaoCredito").mouseleave(function() {
+  $(this).children().children('span').children().css('background-color', '#EC7514');   
 });
 
-/* ----------------------------------------------- */
+//--------------------------------------------------------------------------------------------//
 
-$("#paisebebes").click(function() {
-  window.location.href = 'services/clinicaPaisBebes.html';
+$("#dissolucaoSociedades").click(function() {
+  window.location.href = 'services/dissolucaoSociedades.html';
 });
 
-$("#paisebebes").hover(function() {
+$("#dissolucaoSociedades").hover(function() {
   $(this).children().children('span').children().css('background-color', 'black');
 });
 
-$("#paisebebes").mouseleave(function() {
-  $(this).children().children('span').children().css('background-color', colorOut);
+$("#dissolucaoSociedades").mouseleave(function() {
+  $(this).children().children('span').children().css('background-color', '#EC7514');   
 });
 
-/* ----------------------------------------------- */
+//--------------------------------------------------------------------------------------------//
 
-$("#psicoPedagogica").click(function() {
-  window.location.href = 'services/psicoPedagogica.html';
+$("#fundoComercio").click(function() {
+  window.location.href = 'services/fundoComercio.html';
 });
 
-$("#psicoPedagogica").hover(function() {
+$("#fundoComercio").hover(function() {
   $(this).children().children('span').children().css('background-color', 'black');
 });
 
-$("#psicoPedagogica").mouseleave(function() {
-  $(this).children().children('span').children().css('background-color', colorOut);
+$("#fundoComercio").mouseleave(function() {
+  $(this).children().children('span').children().css('background-color', '#EC7514');   
 });
 
-/* ----------------------------------------------- */
+//--------------------------------------------------------------------------------------------//
 
-$("#orientacaoPais").click(function() {
-  window.location.href = 'services/orientacaoPais.html';
+$("#exclusaoSocios").click(function() {
+  window.location.href = 'services/exclusaoSocios.html';
 });
 
-$("#orientacaoPais").hover(function() {
+$("#exclusaoSocios").hover(function() {
   $(this).children().children('span').children().css('background-color', 'black');
 });
 
-$("#orientacaoPais").mouseleave(function() {
-  $(this).children().children('span').children().css('background-color', colorOut);
+$("#exclusaoSocios").mouseleave(function() {
+  $(this).children().children('span').children().css('background-color', '#EC7514');   
 });
 
-/* ----------------------------------------------- */
+//--------------------------------------------------------------------------------------------//
 
-$("#orientacaoFilhos").click(function() {
-  window.location.href = 'services/orientacaoPaisFilhos.html';
+$("#financeiroHabitacao").click(function() {
+  window.location.href = 'services/financeiroHabitacao.html';
 });
 
-$("#orientacaoFilhos").hover(function() {
+$("#financeiroHabitacao").hover(function() {
   $(this).children().children('span').children().css('background-color', 'black');
 });
 
-$("#orientacaoFilhos").mouseleave(function() {
-  $(this).children().children('span').children().css('background-color', colorOut);
+$("#financeiroHabitacao").mouseleave(function() {
+  $(this).children().children('span').children().css('background-color', '#EC7514');   
 });
 
-/* ----------------------------------------------- */
+//--------------------------------------------------------------------------------------------//
 
-$("#autista").click(function() {
-  window.location.href = 'services/autista.html';
+$("#sucessaoHereditaria").click(function() {
+  window.location.href = 'services/sucessaoHereditaria.html';
 });
 
-$("#autista").hover(function() {
+$("#sucessaoHereditaria").hover(function() {
   $(this).children().children('span').children().css('background-color', 'black');
 });
 
-$("#autista").mouseleave(function() {
-  $(this).children().children('span').children().css('background-color', colorOut);
+$("#sucessaoHereditaria").mouseleave(function() {
+  $(this).children().children('span').children().css('background-color', '#EC7514');   
 });
 
-/* ----------------------------------------------- */
+//--------------------------------------------------------------------------------------------//
 
-$("#atrasoDesenvolvimento").click(function() {
-  window.location.href = 'services/atrasoDesenvolvimento.html';
+$("#prestacaoContas").click(function() {
+  window.location.href = 'services/prestacaoContas.html';
 });
 
-$("#atrasoDesenvolvimento").hover(function() {
+$("#prestacaoContas").hover(function() {
   $(this).children().children('span').children().css('background-color', 'black');
 });
 
-$("#atrasoDesenvolvimento").mouseleave(function() {
-  $(this).children().children('span').children().css('background-color', colorOut);
+$("#prestacaoContas").mouseleave(function() {
+  $(this).children().children('span').children().css('background-color', '#EC7514');   
 });
 
-/* ----------------------------------------------- */
+//--------------------------------------------------------------------------------------------//
 
-$("#psicoterapia").click(function() {
-  window.location.href = 'services/psicoterapia.html';
+$("#contratosFinanceiros").click(function() {
+  window.location.href = 'services/contratosFinanceiros.html';
 });
 
-$("#psicoterapia").hover(function() {
+$("#contratosFinanceiros").hover(function() {
   $(this).children().children('span').children().css('background-color', 'black');
 });
 
-$("#psicoterapia").mouseleave(function() {
-  $(this).children().children('span').children().css('background-color', colorOut);
+$("#contratosFinanceiros").mouseleave(function() {
+  $(this).children().children('span').children().css('background-color', '#EC7514');   
 });
-
-/* ----------------------------------------------- */
-
-$("#terapiaCasal").click(function() {
-  window.location.href = 'services/terapiaCasal.html';
-});
-
-$("#terapiaCasal").hover(function() {
-  $(this).children().children('span').children().css('background-color', 'black');
-});
-
-$("#terapiaCasal").mouseleave(function() {
-  $(this).children().children('span').children().css('background-color', colorOut);
-});
-
-/* ----------------------------------------------- */
